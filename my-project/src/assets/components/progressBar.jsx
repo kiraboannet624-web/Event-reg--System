@@ -1,3 +1,4 @@
+import React from "react";
 const steps = ["Register", "Review", "Confirm"];
 
 export default function ProgressBar({ current }) {
