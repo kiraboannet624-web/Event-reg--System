@@ -14,16 +14,16 @@ function AppRoutes() {
       <Route path="/" element={<EventInfo />} />
       <Route
         path="/register"
-        element={isRegistered ? <Navigate to="/already-registered" replace /> : <RegistrationForm />}
+        element={isRegistered ? <Navigate to="/already-registered" /> : <RegistrationForm />}
       />
       <Route
         path="/review"
-        element={isRegistered ? <Navigate to="/already-registered" replace /> : <ReviewPage />}
+        element={isRegistered ? <Navigate to="/already-registered" /> : <ReviewPage />}
       />
       <Route path="/confirmation" element={<ConfirmationPage />} />
       <Route
         path="/already-registered"
-        element={isRegistered ? <AlreadyRegistered /> : <Navigate to="/" replace />}
+        element={isRegistered ? <AlreadyRegistered /> : <Navigate to="/" />}
       />
     </Routes>
   );
