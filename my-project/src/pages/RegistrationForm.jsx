@@ -42,7 +42,7 @@ export default function RegistrationForm() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-indigo-600">TechConf 2025</h1>
+          <h1 className="text-2xl font-bold text-indigo-600">TechConf 2026</h1>
         </div>
       </nav>
 
@@ -78,7 +78,7 @@ export default function RegistrationForm() {
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">Event Registration</h2>
-          <p className="text-gray-600 mb-8">Fill in your details to register for TechConf 2025</p>
+          <p className="text-gray-600 mb-8">Fill in your details to register for TechConf 2026</p>
 
           <form onSubmit={handleSubmit}>
             {/* Personal Information */}

@@ -10,7 +10,7 @@ export default function EventInfo() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-indigo-600">TechConf 2025</h1>
+          <h1 className="text-2xl font-bold text-indigo-600">TechConf 2026</h1>
         </div>
       </nav>
 
@@ -18,7 +18,7 @@ export default function EventInfo() {
       <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <div className="inline-block bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            September 12-14, 2025
+            September 12-14, 2026
           </div>
           <h2 className="text-5xl font-bold text-gray-900 mb-4">
             Tech Innovation Conference
@@ -86,7 +86,7 @@ export default function EventInfo() {
         {/* Call to Action */}
         <div className="bg-indigo-600 text-white p-12 rounded-lg text-center">
           <h3 className="text-3xl font-bold mb-4">Seats are Limited</h3>
-          <p className="text-lg mb-6">Secure your spot at the premier tech conference of 2025</p>
+          <p className="text-lg mb-6">Secure your spot at the premier tech conference of 2026</p>
           <button
             onClick={() => navigate(isRegistered ? "/already-registered" : "/register")}
             className="bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition"

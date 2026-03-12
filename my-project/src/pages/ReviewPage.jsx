@@ -21,7 +21,7 @@ export default function ReviewPage() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-indigo-600">TechConf 2025</h1>
+          <h1 className="text-2xl font-bold text-indigo-600">TechConf 2026</h1>
         </div>
       </nav>
 
@@ -97,7 +97,7 @@ export default function ReviewPage() {
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
             <p className="text-sm text-blue-800">
               <span className="font-semibold">Note:</span> By confirming, your registration will be saved 
-              and your spot at TechConf 2025 will be reserved.
+              and your spot at TechConf 2026 will be reserved.
             </p>
           </div>
 
